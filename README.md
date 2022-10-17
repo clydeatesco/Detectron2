@@ -2,6 +2,15 @@
 Detectron2 + Yolov7
 
 ```bash
+> nvcc -V
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2021 NVIDIA Corporation
+Built on Fri_Dec_17_18:28:54_Pacific_Standard_Time_2021
+Cuda compilation tools, release 11.6, V11.6.55
+Build cuda_11.6.r11.6/compiler.30794723_0
+```
+
+```bash
 > conda create -n yolov7_mask python=3.9
 > conda activate yolov7_mask
 > conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.6 -c pytorch -c conda-forge
