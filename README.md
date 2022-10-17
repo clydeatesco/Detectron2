@@ -14,7 +14,7 @@ Detectron2 + Yolov7
 # installation fix: macro set inside setup.py link here https://github.com/Ikomia-dev/detectron2/commit/cf546cfdae29b1f032f58a7d0340140443ee0603
 > cd .. && cd yolov7-mask
 # no need to install torch
-```bash
+```
 
 ```bash
 line 11: # torch>=1.7.0,!=1.12.0
