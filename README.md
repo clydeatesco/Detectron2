@@ -42,3 +42,12 @@ line 12: # torchvision>=0.8.1,!=0.13.0
 > python segment.py --source clyde_sample1.jpg --nosave --view-img --nobbox --nolabel
 > python segment.py --source ac_parkour.mp4 --nosave --view-img --nobbox --nolabel --showfps
 ```
+
+### Weird Bug
+
+```bash
+# if encountered error after successfuly setup the detectron2 environment
+# error saying that ```rebuild the library using Windows```
+# just use install this 
+> pip install opencv-contrib-python 
+```
